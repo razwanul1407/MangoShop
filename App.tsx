@@ -126,14 +126,14 @@ export default function App() {
     // animation.current?.play();
   }, []);
   return (
-    <View style={{flex: 1}}>
+    <View style={{flex:1}}>
       <LottieView
         autoPlay
         ref={animation}
         style={{
           flex: 1,
         }}
-        source={require('./assets/animated.json')}
+        source={require('./src/assets/SplashScreen.json')}
       />
     </View>
   );
